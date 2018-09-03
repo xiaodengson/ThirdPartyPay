@@ -1,0 +1,30 @@
+{
+  "name": "ThirdPartyPayRn",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "antd-mobile-rn": "^2.2.1",
+    "md5": "^2.2.1",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-qrcode": "^0.2.7",
+    "react-navigation": "^2.10.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.4.2",
+    "prop-types": "^15.6.2",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
